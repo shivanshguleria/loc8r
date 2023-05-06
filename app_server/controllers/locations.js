@@ -84,8 +84,10 @@ const addReview = (req, res) => {
   });
 };
 
+
+
 module.exports = {
   homelist,
   locationInfo,
-  addReview
+  addReview,
 };
