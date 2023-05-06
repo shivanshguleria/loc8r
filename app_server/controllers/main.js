@@ -1,8 +1,6 @@
-/*GET index page */
-const index = (req, res) => {
-    res.render('index', {title: "Home"});
-};
+/* GET homepage */
+const index = (req, res) => res.render('index', { title: 'Express '});
 
 module.exports = {
-    index
-}
+  index
+};
